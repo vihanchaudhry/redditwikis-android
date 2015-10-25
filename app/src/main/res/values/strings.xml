@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Reddit Wikis</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_wiki_page">DisplayWikiPage</string>
+</resources>
