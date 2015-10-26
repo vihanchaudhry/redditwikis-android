@@ -16,7 +16,6 @@ public class DisplayWikiPage extends AppCompatActivity {
 
         Intent intent = getIntent();
         String content = intent.getStringExtra(MainActivity.EXTRA_CONTENT);
-
         MarkdownView markdownView = new MarkdownView(this);
         String darkCSS = "file:///android_asset/dark.css";
         markdownView.loadMarkdown(content, darkCSS);
